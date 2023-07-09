@@ -1,0 +1,63 @@
+
+h1 {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.card-content {
+    margin-bottom: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+button[type="submit"],
+button[type="button"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.modify-button img, .delete-button img{
+  width: 20px;
+
+}
